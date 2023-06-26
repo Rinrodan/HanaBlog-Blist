@@ -1,5 +1,7 @@
-/.idea
-/node_modules
-/public
+.idea/
+node_modules/
+public/
 hugo_stats.json
+exampleSite/resources/_gen
+resources/
 .DS_Store
