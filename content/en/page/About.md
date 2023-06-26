@@ -7,7 +7,7 @@ tags:
   - about
   - motherhood
   - toddler
-image: /images/HanaAspen-Portrait.jpg
+thumbnail: /images/HanaAspen-Portrait.jpg
 description: ""
 toc: true
 
