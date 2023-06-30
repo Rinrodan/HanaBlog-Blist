@@ -1,55 +1,65 @@
 /* Custom Styles */
+:root {
+  --fontFamily: 'Cormorant';
+}
+
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Cormorant', serif;
+  /* font-family: 'Ysabeau Office', sans-serif; */
 }
 
 /* Fonts */
 
-/* inter-300 - latin */
+/* Cormorant-300 */
 @font-face {
-  font-family: "Inter";
+  font-family: "Cormorant";
   font-style: normal;
   font-weight: 300;
-  src: url("/fonts/inter-v3-latin-300.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("/fonts/inter-v3-latin-300.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("/fonts/inter-v3-latin-300.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("/fonts/inter-v3-latin-300.woff")
-      format("woff"),
-    /* Modern Browsers */ url("/fonts/inter-v3-latin-300.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */ url("/fonts/inter-v3-latin-300.svg#Inter")
-      format("svg"); /* Legacy iOS */
+  src: url("https://fonts.googleapis.com/css2?family=(var(--fontFamily):wght@300&display=swap"); 
 }
-/* inter-500 - latin */
+/* Cormorant-500  */
 @font-face {
-  font-family: "Inter";
+  font-family: "Cormorant";
   font-style: normal;
   font-weight: 500;
-  src: url("/fonts/inter-v3-latin-500.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("/fonts/inter-v3-latin-500.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("/fonts/inter-v3-latin-500.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("/fonts/inter-v3-latin-500.woff")
-      format("woff"),
-    /* Modern Browsers */ url("/fonts/inter-v3-latin-500.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */ url("/fonts/inter-v3-latin-500.svg#Inter")
-      format("svg"); /* Legacy iOS */
+  src: url("https://fonts.googleapis.com/css2?family=(var(--fontFamily):wght@500&display=swap"); 
 }
-/* inter-700 - latin */
+/* Cormorant-700 */
 @font-face {
-  font-family: "Inter";
+  font-family: "Cormorant";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/inter-v3-latin-700.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("/fonts/inter-v3-latin-700.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("/fonts/inter-v3-latin-700.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("/fonts/inter-v3-latin-700.woff")
-      format("woff"),
-    /* Modern Browsers */ url("/fonts/inter-v3-latin-700.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */ url("/fonts/inter-v3-latin-700.svg#Inter")
-      format("svg"); /* Legacy iOS */
+  src: url("https://fonts.googleapis.com/css2?family=(var(--fontFamily):wght@700&display=swap"); 
+
 }
+
+/*
+font-family: 'Cormorant', serif;
+https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@700&display=swap
+
+font-family: 'Ysabeau Office', sans-serif;
+src: url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300&display=swap");
+
+
+@font-face {
+  font-family: 'Ysabeau Office';
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300&display=swap"); 
+}
+
+@font-face {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@500&display=swap"); 
+}
+
+@font-face {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@700&display=swap");
+}  
+  */
+
