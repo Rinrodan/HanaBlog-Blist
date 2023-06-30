@@ -12,9 +12,9 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Hi, I'm Hana Bustillos"
-      introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
-      introPhoto = "/picture.jpg"
-      logo = "/blist-logo.png"
+      introSubtitle = "I am here to tell you that even on your worst days, you’re not a bad mom, you haven’t ruined your child, and God still loves you."
+      introPhoto = "/motherly-love-1.jpg"
+      logo = "/favicon.png"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
@@ -32,7 +32,7 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.en.menu.main]]
         name = "Top Post"
-        url = "/en/blog/emoji-support/"
+        url = "/blog/why-starting/"
         weight = 4
 
   
@@ -59,7 +59,7 @@ DefaultContentLanguageInSubdir = true
   ]
 
   # Custom copyright - optional
-  copyright = "Copyright © 2021 - Katheryn Fox · All rights reserved"
+  copyright = "Copyright © 2021 - Hana Bustillos · All rights reserved"
   favicon = "/favicon.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
@@ -76,7 +76,7 @@ DefaultContentLanguageInSubdir = true
 
   # To hide "Other languages" option if the post is available in multiple languages
   # Can be used at site level or page level
-  hideOtherLanguages = false
+  hideOtherLanguages = true
 
   # Add support for Table of contents
   # Can be added to a page level also in markdown frontmatter
@@ -112,63 +112,19 @@ DefaultContentLanguageInSubdir = true
 
 [params.homepage.social]
   # Global params common for both languages
-  title = "Follow me"
-  description = "I work on everything coding and tweet developer memes"
+  title = ""
+  description = ""
 
-  [[params.homepage.social.icons]]
-    website = "twitter"
-    url = "https://twitter.com/"
-  [[params.homepage.social.icons]]
-    website = "linkedin"
-    url = "https://linkedin.com/in/"
-  [[params.homepage.social.icons]]
-    website = "xing"
-    url = "https://www.xing.com/profile/"
-  [[params.homepage.social.icons]]
-    website = "telegram"
-    url = "https://t.me/"
-  [[params.homepage.social.icons]]
-    website = "github"
-    url = "https://github.com/"
   [[params.homepage.social.icons]]
     website = "buymeacoffee"
     url = "https://www.buymeacoffee.com/"
-  [[params.homepage.social.icons]]
-    website = "medium"
-    url = "https://medium.com/"
-  [[params.homepage.social.icons]]
-    website = "reddit"
-    url = "https://reddit.com/"
-  [[params.homepage.social.icons]]
-    website = "dribbble"
-    url = "https://dribbble.com/"
-  [[params.homepage.social.icons]]
-    website = "stackoverflow"
-    url = "https://stackoverflow.com/"
-  [[params.homepage.social.icons]]
-    website = "xda"
-    url = "https://forum.xda-developers.com/"
-  [[params.homepage.social.icons]]
-    website = "tiktok"
-    url = "https://tiktok.com"
-  [[params.homepage.social.icons]]
-    website = "googlescholar"
-    url = "https://scholar.google.com/"
-  [[params.homepage.social.icons]]
-    website = "mastodon"
-    url = "https://joinmastodon.org"
-  [[params.homepage.social.icons]]
-    website = "youtube"
-    url = "https://youtube.com"
   [[params.homepage.social.icons]]
     website = "instagram"
     url = "https://instagram.com"
   [[params.homepage.social.icons]]
     website = "facebook"
     url = "https://facebook.com"
-  [[params.homepage.social.icons]]
-    website = "behance"
-    url = "https://behance.net"
+
 
 [[menu.main]]
   name = "About"

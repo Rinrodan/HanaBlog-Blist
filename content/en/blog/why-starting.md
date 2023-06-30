@@ -14,6 +14,9 @@ toc: true
 summary: "I’ve had a lot of job experience in writing devotions, sermons, prayers, and keynotes, that (hopefully) were meaningful to people and reminded them that God loves them."
 ---
 
+[Photo by Alina Vilchenko:](https://www.pexels.com/photo/photo-of-person-holding-cup-3363111/)
+
+---
 
   >__I am here to tell you that even on your worst days, you’re not a bad mom, you haven’t ruined your child, and God still loves you.__
 
