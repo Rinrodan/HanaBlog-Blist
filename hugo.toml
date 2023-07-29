@@ -14,7 +14,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Hi, I'm Hana Bustillos"
       introSubtitle = "I am here to tell you that even on your worst days, you’re not a bad mom, you haven’t ruined your child, and God still loves you."
       introPhoto = "/motherly-love-1.jpg"
-      logo = "/favicon.png"
+      logo = "/favicon.svg"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
